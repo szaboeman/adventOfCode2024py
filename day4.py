@@ -6,7 +6,6 @@ def in_bounds(grid, r, c):
     return 0 <= r < len(grid) and 0 <= c < len(grid[0])-1
 
 input=open("input/day4.txt").readlines()
-ALL_DIRS = [(-1, 0), (-1, -1), (1, 0), (-1, 1), (0, -1), (1, -1), (0, 1), (1, 1)]
 
 db=0
 for i in range(len(input)):
