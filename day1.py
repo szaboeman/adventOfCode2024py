@@ -1,5 +1,4 @@
-
-rows=open("input/test1.txt", 'r', encoding='utf-8').readlines()
+rows=open("input/day1.txt", 'r', encoding='utf-8').readlines()
 left=sorted(int(data.strip().split('   ')[0]) for data in rows)
 right=sorted(int(data.strip().split('   ')[1]) for data in rows)
 
